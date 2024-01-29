@@ -1,0 +1,15 @@
+.btn{
+    margin: 1px;
+    padding:9px 16px 9px 16px;
+    border-radius: 20px;
+    background-color: white;
+    border-color: white;
+}
+body{
+    background-image: url(./images/pexels-robin-stickel-70497.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pg{
+    color: white;
+}
