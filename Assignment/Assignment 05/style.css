@@ -1,0 +1,242 @@
+/* CSS of Portfolio */
+
+/* Background Color for all Pages */
+body {
+    background-color: #0a192f;
+}
+main{
+    position: absolute;
+    width: 70%;
+    left: 10%;
+}
+/* Logo */
+#logo {
+    width: 10%;
+    max-width: 100%;
+    position: relative;
+    top: 10px;
+    left: 45px;
+}
+
+/* Navigation Bar */
+#navbar {
+    color: #e5e7eb;
+    position: absolute;
+    top: 40px;
+    left: 600px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #e5e7eb;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+#navbar a:hover {
+    color: #64ffda;
+}
+
+#resume-button{
+    border: 2px;
+    border-radius: 8px;
+    border-color: #64ffda;
+    border-style: solid;
+    background-color: #0a192f;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Calibri;
+    padding: 10px 20px;
+}
+
+#get-in-touch{
+    border-color: #64ffda;
+    background-color:#0a192f;
+    color: #64ffda;
+    border-radius: 8px;
+    border: 2px;
+    border-style: solid;
+    font-size: 20px;
+    font-family: Calibri;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#get-in-touch:hover{
+    color: #ccd6f6;
+}
+
+
+#p1{
+    font-size:140%;
+    color:#64ffda;
+    font-family: SF Mono;
+    margin-top: 6%;
+}
+#p2{
+    font-size: 340%;
+    color:#ccd6f6;
+    font-family: Calibri;
+    margin-top: 0%;
+}
+#p3{
+    font-size: 200%;
+    color:#8892b0;
+    font-family: Segoe UI;
+    margin-top: -5%;
+}
+#p4{
+    font-size: 130%;
+    color: #8892b0;
+    font-family: Segoe UI;
+}
+
+
+#about-p1{
+    color:#ccd6f6;
+    font-size: 180%;
+    font-family: Segoe UI;
+    margin-top: 100px;
+}
+#about-p2{
+    color: #8892b0;
+    font-size: 130%;
+    font-family: Segoe UI;
+}
+#about-pic {
+    border: 2px;
+    border-radius: 8px;
+    border-color: #64ffda;
+    border-style: ridge;
+    width: 38%;
+    position: absolute;
+    top: 47%;
+    left: 80%;
+}
+#about-pic:hover{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+
+#smit-link{
+    color: #64ffda;
+}
+#vu-link{
+    color: #64ffda;
+}
+
+#github-icon {
+    color: #8892b0;
+    font-size: 25px;
+    margin: 5px;
+    cursor: pointer;
+    position: fixed;
+    left: 20px; /* Adjust the left position as needed */
+    top: 55%; /* Adjust the top position as needed */
+}
+
+#facebook-icon {
+    color: #8892b0;
+    font-size: 25px;
+    margin: 5px;
+    cursor: pointer;
+    position: fixed;
+    left: 20px; /* Adjust the left position as needed */
+    top: 62%; /* Adjust the top position as needed */
+}
+
+#linkedin-icon {
+    color: #8892b0;
+    font-size: 25px;
+    margin: 5px;
+    cursor: pointer;
+    position: fixed;
+    left: 20px; /* Adjust the left position as needed */
+    top: 69%; /* Adjust the top position as needed */
+}
+
+#instagram-icon {
+    color: #8892b0;
+    font-size: 25px;
+    margin: 5px;
+    cursor: pointer;
+    position: fixed;
+    left: 20px; /* Adjust the left position as needed */
+    top: 76%; /* Adjust the top position as needed */
+}
+
+#hr-line1{
+    width: 10%;
+    color: #8892b0;
+    position: fixed;
+    margin: 5px;
+    transform: rotate(90deg);
+    top: 93%;
+    left: -32px;
+}
+#hr-line2{
+    width: 5%;
+    color: #8892b0;
+    position: fixed;
+    margin: 5px;
+    transform: rotate(90deg);
+    top: 95%;
+    left: 92%;
+}
+
+#github-icon:hover,
+#facebook-icon:hover,
+#linkedin-icon:hover,
+#instagram-icon:hover {
+    color: #64ffda; /* Change to your desired hover color */
+}
+
+#email-link{
+    color: #8892b0;
+    font-size: 20px;
+    position: fixed;
+    left: 85%;
+    top: 65%;
+    transform:rotate(90deg);
+    cursor: pointer;
+    
+}
+#email-link:hover{
+    color:#64ffda;
+}
+
+#about-list1{    
+    color: #8892b0;
+    font-family: Calibri;
+    font-size: 140%;
+    display: inline-block;
+    list-style-type:circle;
+}
+
+#about-list2{    
+    color: #8892b0;
+    font-family: Calibri;
+    font-size: 140%;
+    display: inline-block;
+    list-style-type:circle;
+}
+.experience-main{
+    color:#ccd6f6;
+    font-size: 180%;
+    font-family: Segoe UI;
+    margin-top: 100px;
+}
+
+
+/* Responsive Design */
+/* @media screen and (max-width: 768px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 20px 0;
+    }
+} */
