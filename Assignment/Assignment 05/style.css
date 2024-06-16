@@ -104,12 +104,12 @@ main{
     font-size: 130%;
     font-family: Segoe UI;
 }
-#about-pic {
+.about-pic {
     border: 2px;
     border-radius: 8px;
     border-color: #64ffda;
     border-style: ridge;
-    width: 38%;
+    width: 30%;
     position: absolute;
     top: 47%;
     left: 80%;
